@@ -1,0 +1,240 @@
+/* Global Start */
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+    color:#222;
+}
+
+.container{
+    width: 1170px;
+    margin:auto;
+    display: flex;
+}
+.left-half{
+    width: 50%;
+}
+.right-half{
+    width: 50%;
+}
+h1,p{
+    margin-bottom:20px
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7em;
+    color:#222;
+}
+.btn{
+    font-size: 16px;
+    background: linear-gradient(90deg, rgba(122,116,224,1) 0%, rgba(84,75,231,1) 100%);
+    color:#fff;
+    font-weight: 500;
+    padding:11px 27px;
+    border-radius: 50px;
+    box-shadow: 3px 6px 22px rgba(84,75,231,.3);
+}
+.section-title{
+    font-size: 40px;
+    color:#222;
+}
+
+/* Global End */
+
+/* Header Start */
+
+#header{
+    background-color: #fff;
+    padding:15px 0;
+    box-shadow: 0 0 15px 1px #00000025;
+}
+#header .container{
+    align-items: center;
+}
+.logo h1{
+    font-weight: 900;
+    color:#222;
+}
+.logo span{
+    color:#564DE8;
+}
+#header ul{
+    display: flex;
+    justify-content: flex-end;
+}
+#header ul li{
+    list-style: none;
+    margin-left: 25px;
+}
+#header li a{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:#222;
+}
+#header li a:hover{
+    color:#564DE8;
+}
+
+/* Header End */
+
+/* Hero Start */
+
+#hero{
+    background-color:#fff;
+    padding:70px 0;
+}
+#hero .container{
+    align-items: center;
+}
+#hero h1{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1.2em;
+    color:#222;
+}
+#hero h1 span{
+    color:#564DE8;
+}
+#hero p{
+    margin-bottom:40px;
+}
+#hero .right-half{
+    display: flex;
+    justify-content: center;
+}
+#hero img{
+    width: 80%;
+}
+
+/* Hero End */
+
+/* About Us Start*/
+
+#about{
+    padding-top:70px;
+    background: url(../images/about-bg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#about .container{
+    align-items: center;
+}
+#about .left-half{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#about .left-half img{
+    width: 80%;
+}
+
+#about p{
+    margin-bottom:40px;
+}
+
+/* About Us End*/
+
+/* Recipies Start */
+
+#recipies{
+    padding:70px 0;
+    background-color:#fff;
+}
+#recipies .parent-div{
+    width: 100%;
+}
+#recipies .top-layer{
+    text-align: center;
+}
+#recipies .inner-recipies{
+    margin-top:40px;
+    display: flex;
+    justify-content: space-between;
+}
+#recipies .food-recipe{
+    padding:20px;
+    border-radius: 20px;
+    width: 33.33%;
+    box-shadow: 0px 0px 40px rgba(0,0,0,0.15);
+}
+#recipies .food-recipe-01{
+    margin-right:27px;
+}
+#recipies .food-recipe-02{
+    margin:0 27px;
+}
+#recipies .food-recipe-03{
+    margin-left: 27px;
+}
+#recipies .food-recipe img{
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom:40px;
+}
+#recipies .food-recipe h2{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#recipies .information{
+    margin-top:120px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding:64px 0;
+
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+#recipies .inner-information h2{
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 900;
+    color:#222;
+}
+#recipies .inner-information span{
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* Recipies End */
+
+/* Footer Start */
+
+#footer{
+    background-color:#0B0D17;
+    padding-top:37px;
+    padding-bottom: 95px;
+}
+#footer .container{
+    display: block;
+    text-align: center;
+    
+}
+#footer h2{
+    font-weight: 800;
+    font-size: 30px;
+    color:#fff;
+    margin-bottom: 40px;
+}
+#footer span{
+    color:#564DE8;
+}
+#footer p{
+    color:#fff;
+}
+
+/* Footer End*/
+
