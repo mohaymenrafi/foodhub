@@ -56,7 +56,7 @@ p{
     padding:15px 0;
 }
 #header .container{
-    align-items: center;
+    align-items:center;
 }
 .logo h1{
     font-weight: 900;
@@ -210,6 +210,44 @@ p{
 
 /* Recipies End */
 
+/* Testimonial Start */
+
+#testimonial{
+    padding:70px 0;
+    background-image: url(/images/testimonial-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+#testimonial .container{
+    display: block;
+}
+#testimonial h1{
+    text-align: center;
+}
+#testimonial .main-content{
+    display: flex;
+    margin-top: 20px;
+}
+#testimonial .left-half , #testimonial .right-half{
+    padding:50px;
+    margin:25px;
+    box-shadow: 3px 6px 22px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+#testimonial h2{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+#testimonial h3{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Testimonial End */
+
+
 /* Footer Start */
 
 #footer{
@@ -236,4 +274,7 @@ p{
 }
 
 /* Footer End*/
+
+
+
 
